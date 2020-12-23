@@ -26,7 +26,6 @@ import java.util.Scanner;
 	각 테스트 케이스에 대해 주어진 조건하에 다리를 지을 수 있는 경우의 수를 출력한다.
 */
 class Problem_1010 {
-
 	public static void main(String[] args) {
 		try (Scanner sc = new Scanner(System.in)) {
 			String input = sc.nextLine();
