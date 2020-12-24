@@ -2,6 +2,7 @@ package silver3;
 
 import java.util.Scanner;
 
+// 피보나치 함수 https://www.acmicpc.net/problem/1003
 class Problem_1003 {
 	private static int[] memory = new int[41];
 	
