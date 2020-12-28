@@ -25,6 +25,9 @@ import java.util.Scanner;
 	
 	출력
 	첫째 줄에 문제의 정답을 출력한다.
+	
+	알고리즘 분류
+	브루트포스 알고리즘
  */
 class Problem_1034 {
 	public static void main(String[] args) {
@@ -33,11 +36,27 @@ class Problem_1034 {
 			int n = Integer.parseInt(inputArray[0]); // 행의 개수
 			int m = Integer.parseInt(inputArray[1]); // 열의 개수
 			
-			for(int i=0; i<n; i++){
+			int[][] table = new int[m][n];
+			for(int line=0; line<n; line++){
 				String lampStatus = sc.nextLine(); // 0또는 1이 m개만큼 붙어 들어옴
+				for(int row=0; row<lampStatus.length(); row++){
+					table[row][line] = Integer.parseInt(lampStatus.substring(row, row+1));
+				};
 			}
 			
 			int k = Integer.parseInt(sc.nextLine()); // 스위치를 누른 횟수
+			
+			for(int line=0; line<table[0].length; line++){
+				for(int row=0; row<table.length; row++){
+					System.out.print(table[row][line] + "\t");
+				}
+				System.out.println();
+			}
+			System.out.println("k="+k);
+			
+			for(int count=0; count<k; count++){
+				
+			}
 		}
 	}
 }
