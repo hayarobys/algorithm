@@ -1,4 +1,4 @@
-package step4;
+package baekjoon.step4;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

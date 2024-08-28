@@ -1,4 +1,4 @@
-package silver2;
+package baekjoon.silver2;
 
 import java.util.Scanner;
 

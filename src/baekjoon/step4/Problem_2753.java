@@ -1,4 +1,4 @@
-package step4;
+package baekjoon.step4;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

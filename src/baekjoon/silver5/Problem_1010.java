@@ -1,4 +1,4 @@
-package silver5;
+package baekjoon.silver5;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
